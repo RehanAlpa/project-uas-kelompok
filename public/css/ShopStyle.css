@@ -1,0 +1,155 @@
+/* styles-shop.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fafafa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); /* Ukuran item lebih kecil */
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.product {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%; /* agar fleksibel dengan kolom grid */
+  max-width: 180px; /* batasi lebar maksimum seperti di home */
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin: auto; /* agar tidak nempel kiri/kanan */
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.product h3 {
+  margin: 10px 0 5px;
+}
+
+.product p {
+  font-size: 18px;
+  color: #e91e63;
+}
+
+button {
+  background-color: #222;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.filters .btn-outline {
+  background-color: white;
+  border: 2px solid #222;
+  color: #222;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filters .btn-outline:hover {
+  background-color: #222;
+  color: white;
+}
+
+.filters .btn-outline.active {
+  background-color: #222;
+  color: white;
+}
+
+.product-grid {
+  display: none; /* Default disembunyikan */
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.product-grid.active {
+  display: flex; /* Ditampilkan hanya jika aktif */
+}
+
+.products .product-grid {
+  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.5rem;
+}
+
+.products .product-grid.active {
+  display: grid;
+}
+
+

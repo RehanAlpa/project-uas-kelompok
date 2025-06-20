@@ -74,47 +74,47 @@
     <div class="products">
       <!-- Hoodie -->
       <div class="product-grid hoodie active">
-        <div class="product"><img src="{{ asset('image/Hoodie-Img/Hoodie6.jpg') }}"><p>Men Solid BLVCK Hoodie</p><p class="price">Rp.175000</p></div>
-        <div class="product"><img src="{{ asset('image/Hoodie-Img/Hoodie1.jpg') }}"><p>Hip Hop Hoodie</p><p class="price">Rp.200000</p></div>
-        <div class="product"><img src="{{ asset('image/Hoodie-Img/Hooodie4.jpg') }}"><p>Aeros Prisson Hoodie</p><p class="price">Rp.250000</p></div>
-        <div class="product"><img src="{{ asset('image/Hoodie-Img/Hoodie2.jpg') }}"><p>Hoodie Zipper</p><p class="price">Rp.230000</p></div>
-        <div class="product"><img src="{{ asset('image/Hoodie-Img/Hoodie3.jpeg') }}"><p>White Milk Hoodie</p><p class="price">Rp.150000</p></div>
+        <div class="product"><img src="{{ asset('image/Hoodie-Img/Hoodie6.jpg') }}"><p>Men Solid BLVCK Hoodie</p></div>
+        <div class="product"><img src="{{ asset('image/Hoodie-Img/Hoodie1.jpg') }}"><p>Hip Hop Hoodie</p></div>
+        <div class="product"><img src="{{ asset('image/Hoodie-Img/Hooodie4.jpg') }}"><p>Aeros Prisson Hoodie</p></div>
+        <div class="product"><img src="{{ asset('image/Hoodie-Img/Hoodie2.jpg') }}"><p>Hoodie Zipper</p></div>
+        <div class="product"><img src="{{ asset('image/Hoodie-Img/Hoodie3.jpeg') }}"><p>White Milk Hoodie</p></div>
       </div>
 
       <!-- Long Sleeve -->
       <div class="product-grid long-sleeve">
-        <div class="product"><img src="{{ asset('image/LongSleeve-img/LongSleeve1.jpg') }}"><p>Grey Long Sleeve</p><p class="price">Rp.175000</p></div>
-        <div class="product"><img src="{{ asset('image/LongSleeve-img/LongSleeve2.jpg') }}"><p>Blue Navy Long Sleeve</p><p class="price">Rp.175000</p></div>
-        <div class="product"><img src="{{ asset('image/LongSleeve-img/LongSleeve3.jpg') }}"><p>Bubble Gum Long Sleeve</p><p class="price">Rp.175000</p></div>
-        <div class="product"><img src="{{ asset('image/LongSleeve-img/LongSleeve4.jpg') }}"><p>Solid White Long Sleeve</p><p class="price">Rp.175000</p></div>
-        <div class="product"><img src="{{ asset('image/LongSleeve-img/Male Model is 180cm 73kg wearing Size XL Male….jpeg') }}"><p>Black And White Long Sleeve</p><p class="price">Rp.175000</p></div>
+        <div class="product"><img src="{{ asset('image/LongSleeve-img/LongSleeve1.jpg') }}"><p>Grey Long Sleeve</p></div>
+        <div class="product"><img src="{{ asset('image/LongSleeve-img/LongSleeve2.jpg') }}"><p>Blue Navy Long Sleeve</p></div>
+        <div class="product"><img src="{{ asset('image/LongSleeve-img/LongSleeve3.jpg') }}"><p>Bubble Gum Long Sleeve</p></div>
+        <div class="product"><img src="{{ asset('image/LongSleeve-img/LongSleeve4.jpg') }}"><p>Solid White Long Sleeve</p></div>
+        <div class="product"><img src="{{ asset('image/LongSleeve-img/Male Model is 180cm 73kg wearing Size XL Male….jpeg') }}"><p>Black And White Long Sleeve</p></div>
       </div>
 
       <!-- T-Shirt -->
       <div class="product-grid tshirt">
-        <div class="product"><img src="{{ asset('image/T-Shirt-img/Image2.jpg') }}"><p>Solid White T-Shirt</p><p class="price">Rp.100000</p></div>
-        <div class="product"><img src="{{ asset('image/T-Shirt-img/Image9.jpg') }}"><p>Brown Sugar T-Shirt</p><p class="price">Rp.170000</p></div>
-        <div class="product"><img src="{{ asset('image/T-Shirt-img/Ts3.jpeg') }}"><p>AESTHETIC T-Shirt</p><p class="price">Rp.120000</p></div>
-        <div class="product"><img src="{{ asset('image/T-Shirt-img/Ts4.jpeg') }}"><p>University T-shirt</p><p class="price">Rp.100000</p></div>
-        <div class="product"><img src="{{ asset('image/T-Shirt-img/Ts5.jpeg') }}"><p>Blue Ocean T-shirt</p><p class="price">Rp.145000</p></div>
+        <div class="product"><img src="{{ asset('image/T-Shirt-img/Image2.jpg') }}"><p>Solid White T-Shirt</p></div>
+        <div class="product"><img src="{{ asset('image/T-Shirt-img/Image9.jpg') }}"><p>Brown Sugar T-Shirt</p></div>
+        <div class="product"><img src="{{ asset('image/T-Shirt-img/Ts3.jpeg') }}"><p>AESTHETIC T-Shirt</p></div>
+        <div class="product"><img src="{{ asset('image/T-Shirt-img/Ts4.jpeg') }}"><p>University T-shirt</p></div>
+        <div class="product"><img src="{{ asset('image/T-Shirt-img/Ts5.jpeg') }}"><p>Blue Ocean T-shirt</p></div>
       </div>
 
       <!-- Out Wear -->
       <div class="product-grid outwear">
-        <div class="product"><img src="{{ asset('image/Outer-img/Outer.jpg') }}"><p>Leather Jacket</p><p class="price">Rp.250000</p></div>
-        <div class="product"><img src="{{ asset('image/Outer-img/Outer1.jpg') }}"><p>Parachute jacket</p><p class="price">Rp.370000</p></div>
-        <div class="product"><img src="{{ asset('image/Outer-img/Outer2.jpg') }}"><p>Executive Outer</p><p class="price">Rp.300000</p></div>
-        <div class="product"><img src="{{ asset('image/Outer-img/Outer3.jpg') }}"><p>Simple Outer Jacket</p><p class="price">Rp.226000</p></div>
-        <div class="product"><img src="{{ asset('image/Outer-img/Outer4.jpg') }}"><p>Denim Grey Jacket</p><p class="price">Rp.420000</p></div>
+        <div class="product"><img src="{{ asset('image/Outer-img/Outer.jpg') }}"></div>
+        <div class="product"><img src="{{ asset('image/Outer-img/Outer1.jpg') }}"></div>
+        <div class="product"><img src="{{ asset('image/Outer-img/Outer2.jpg') }}"></div>
+        <div class="product"><img src="{{ asset('image/Outer-img/Outer3.jpg') }}"></div>
+        <div class="product"><img src="{{ asset('image/Outer-img/Outer4.jpg') }}"></div>
       </div>
 
       <!-- Hat -->
       <div class="product-grid hat">
-        <div class="product"><img src="{{ asset('image/Hat-img/Hat1.jpeg') }}"><p>Dark Grey Denim Cap</p><p class="price">Rp.90000</p></div>
-        <div class="product"><img src="{{ asset('image/Hat-img/Hat2.jpeg') }}"><p>White polo Cap</p><p class="price">Rp.72000</p></div>
-        <div class="product"><img src="{{ asset('image/Hat-img/Hat3.jpeg') }}"><p>Cyan Distro Cap</p><p class="price">Rp.50000</p></div>
-        <div class="product"><img src="{{ asset('image/Hat-img/Hat4.jpeg') }}"><p>Black Bucket Cap</p><p class="price">Rp.35000</p></div>
-        <div class="product"><img src="{{ asset('image/Hat-img/Hat5.jpeg') }}"><p>headScarf</p><p class="price">Rp.25000</p></div>
+        <div class="product"><img src="{{ asset('image/Hat-img/Hat1.jpeg') }}"></div>
+        <div class="product"><img src="{{ asset('image/Hat-img/Hat2.jpeg') }}"></div>
+        <div class="product"><img src="{{ asset('image/Hat-img/Hat3.jpeg') }}"></div>
+        <div class="product"><img src="{{ asset('image/Hat-img/Hat4.jpeg') }}"></div>
+        <div class="product"><img src="{{ asset('image/Hat-img/Hat5.jpeg') }}"></div>
       </div>
     </div>
   </section>

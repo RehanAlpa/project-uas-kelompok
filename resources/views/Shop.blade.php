@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Shop - Meleset Fashion</title>
+  <title>Collection - Meleset Fashion</title>
   <link rel="stylesheet" href="{{ asset('css/ShopStyle.css') }}">
 </head>
 <body>
@@ -12,7 +12,7 @@
       <ul>
         <li><a href="{{ url('/') }}">Home</a></li>
         <li><a href="{{ url('/about') }}">About Us</a></li>
-        <li><a href="{{ url('/shop') }}">Shop</a></li>
+        <li><a href="{{ url('/shop') }}">Collection</a></li>
         <li><a href="{{ route('login') }}">Login</a></li>
       </ul>
     </nav>

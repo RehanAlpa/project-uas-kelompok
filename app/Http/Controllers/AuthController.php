@@ -26,7 +26,7 @@ class AuthController extends Controller
         // Cek kredensial login
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate(); // Hindari session fixation
-            return redirect()->route('dashboard')->with('success', 'Login berhasil');
+            return redirect()->route('login')->with('success', 'Pendaftaran berhasil. Silakan login.');
         }
 
         // Jika gagal login

@@ -15,7 +15,7 @@
     <nav>
       <li><a href="{{ url('/home') }}">Home</a></li>
 <li><a href="{{ url('/about') }}">About Us</a></li>
-<li><a href="{{ url('/shop') }}">Shop</a></li>
+<li><a href="{{ url('/shop') }}">Collection</a></li>
 <li><a href="{{ url('/login') }}">Login</a></li>
     </nav>
   </header>
